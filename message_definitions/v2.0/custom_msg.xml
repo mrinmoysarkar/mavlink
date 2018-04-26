@@ -1,14 +1,13 @@
 <?xml version="1.0"?>
 <mavlink>
-        <include>common.xml</include>
-        <!-- NOTE: If the included file already contains a version tag, remove the version tag here, else uncomment to enable. -->
-	<!--<version>3</version>-->
-	<enums>
-	</enums>
-	<messages>
-		<message id="160" name="CUSTOM_MSG">
+  <include>common.xml</include>
+  <version>3</version>
+  <enums>
+    </enums>
+  <messages>
+    <message id="370" name="CUSTOM_MSG">
 			<description>This message is a custom message</description>
 			<field type="float" name="custom_var">The is a custom variable</field>
-		</message>
-	</messages>
+	</message>
+  </messages>
 </mavlink>

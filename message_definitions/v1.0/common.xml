@@ -4651,5 +4651,9 @@
       <field type="float[21]" name="pose_covariance">Pose (states: x, y, z, roll, pitch, yaw) covariance matrix upper right triangle (first six entries are the first ROW, next five entries are the second ROW, etc.)</field>
       <field type="float[21]" name="twist_covariance">Twist (states: vx, vy, vz, rollspeed, pitchspeed, yawspeed) covariance matrix upper right triangle (first six entries are the first ROW, next five entries are the second ROW, etc.)</field>
     </message>
+    <message id="370" name="CUSTOM_MSG">
+			<description>This message is a custom message</description>
+			<field type="float" name="custom_var">The is a custom variable</field>
+	</message>
   </messages>
 </mavlink>
